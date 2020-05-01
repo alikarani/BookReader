@@ -1,3 +1,4 @@
+import 'package:bookreader/readBook.dart';
 import 'package:flutter/material.dart';
 import './splashScreen.dart';
 import './home.dart';
@@ -17,7 +18,8 @@ class ReaderApp extends StatelessWidget {
         routes: {
           '/splashScreen': (context) => MyHomePage(),
           '/home': (context) => Home(),
-          '/bookInfo': (context) => BookInfo()
+          '/bookInfo': (context) => BookInfo(),
+          '/readBook': (context) => ReadBook(),
         });
   }
 }

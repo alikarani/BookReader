@@ -1,5 +1,5 @@
 name: bookreader
-description: A new Flutter project.
+description: A Book Reader App.
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -23,12 +23,23 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   splashscreen: ^1.2.0
+  intro_slider: ^2.2.9
+  font_awesome_flutter: ^8.8.1
+  google_fonts: ^1.0.0
+  flutter_swiper: ^1.1.6
   cupertino_icons: ^0.1.2
+  # Networking
+  http: ^0.12.1
+  # Image Loader
+  cached_network_image: ^2.2.0
+  # Shared Preference
+  shared_preferences: ^0.5.7
+  # Provider
+  provider: ^4.0.5+1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
